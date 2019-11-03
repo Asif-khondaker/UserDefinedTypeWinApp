@@ -33,7 +33,10 @@ namespace UserDefinedTypeDesktopApp
 
             persons.Add(aPerson);
         }
-
+        private void Change()
+        {
+            // Change 
+        }
         private void ShowAllFullNamesButton_Click(object sender, EventArgs e)
         {
             fullNameListBox.Items.Clear();
